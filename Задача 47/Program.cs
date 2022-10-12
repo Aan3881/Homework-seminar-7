@@ -30,7 +30,7 @@ void PrintMatrix(double[,] arraynums)
         for (int j = 0; j < arraynums.GetLength(1); j++)
         {
             if (j < arraynums.GetLength(1) - 1) Console.Write($"{arraynums[i, j],4}, ");
-            else Console.Write($"{arraynums[i, j],4}"); // 4 - форматирование вывода элементов в консоль
+            else Console.Write($"{arraynums[i, j],4}");
         }
         Console.WriteLine("|");
     }
